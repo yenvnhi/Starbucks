@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0.1;
+    background-color: #f4f4f4;
+}
+
+.ad-container {
+    width: 280px;
+    height: 336px;
+    background-color: #fff;
+    border: 2px solid #00704A; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #00704A; 
+}
+
+.product-image {
+    width: 280px;
+    height: 180px;
+    border-radius: 5px;
+    background: url("../images/Starbucks.png") center no-repeat;
+    background-size: product-image;
+    position: flex;
+}
+
+.tagline {
+    font-size: 18px;
+    margin: 10px;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00704A; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #005B3D; 
+    transition: 0.4s;
+}
